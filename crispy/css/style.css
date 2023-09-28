@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Header star*/
+.navbar a:hover{
+    color: #f5511e !important;
+    background-color: white;
+    border-radius: 5px;
+
+}
+@media (max-width:750px){
+    header .nav li{
+        margin-left: 0 !important;
+    }
+}
+/*receipes star*/
+#receipes .col img{
+    height:150Px;
+    width: 150px;
+}
+/*About star*/
+#about h1::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: black;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#about .icon{
+    height: 100px;
+    width: 100px;
+    background-color:#f85a3f;
+    border-radius: 100px;
+    color: white;
+    font-size: 28px;
+}
+#about .icon{
+    position: relative;
+}
+#about .icon i{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+/*testimoal start*/
+#testimonal h1::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: black;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#testimonal .card{
+    background: orange;
+    color: white;
+}
+#testimonal i{
+    font-size: 30px;
+}
+
+/*news start*/
+#news h1::after{
+    content: '';
+    display: block;
+    width: 100px;
+    height: 4px;
+    background: black;
+    margin: 5px auto;
+    border-radius: 5px;
+}
+#news .parent{
+    position: relative;    
+}
+#news .bb{
+    position: absolute;
+    right: 0;      
+}
+#news .parent1{
+    position: relative;    
+}
+#news .bb1{
+    position: absolute;
+    left: 0;      
+}
+/*Delicious start*/
+.delicious{
+    height: 250px;
+    width: 100%;
+    background-color: #f85a3f;
+    margin-top: 50px;
+    color: white;
+}
+/*Footer start*/
+footer .bottom{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    color: white;
+   
+}
+
+footer .row{
+    padding: 50px 0px;
+    background-color: #191919;
+    color: white;
+       
+}
+footer p h6{
+    color: #587768;
+}
+footer button{
+    margin-left: -5px;
+    background-color: #f85a3f;
+    border: none;
+    color: white;
+    font-size: 18px;
+}
+footer input{
+    border: none;
+    font-size: 18px;
+}
+footer .bottom::before{
+    content: '';
+    display: flex;
+    width: 100%;
+    height: 5px;
+    background-color:#555555 ;
+}
+footer i{
+    margin: 0px 6px;
+}
